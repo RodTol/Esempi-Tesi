@@ -203,7 +203,7 @@ nx.draw_networkx(G, pos=node_positions, with_labels=True,
                    node_color=color_map, font_color="w", node_size=400)
 
 # Salvo il grafo in un file
-filename = "/workspace/Tesi/Esempio-Mappa/mappa-colorata.png"
+filename = "mappa-colorata.png"
 plt.savefig(filename)
 print("The graph is saved in '{}'.".format(filename))
 
